@@ -5,13 +5,9 @@ Every time a user runs a program, they should get a new randomized output.
 
 Output message should be made up of **at least three different pieces of data**.
 
-___
-
 ## Selected topic
 
 This program outputs random tips for a Serie A fooball matches.
-
-___
 
 ## 2021/2022 Serie A Teams
 | Team | Logo | Team | Logo |
@@ -27,11 +23,13 @@ ___
 | Lazio | <img src="https://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/23.png" width="60"> | Venezia | <img src="https://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/88.png" width="60"> |
 | Milan | <img src="https://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/22.png" width="60"> | Verona | <img src="https://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/25.png" width="60"> |
 
-___
-
 ## Examples
-> Atalanta will **win** against Inter.
+Executing code with
 
-> Juventus will **lose** against Milan.
+> node  .\main.js
 
-> Roma wil **tie** with Napoli.
+will output a tip like the following.
+
+- Atalanta **will win against** Inter.
+- Juventus **will lose against** Milan.
+- Roma **wil tie with** Napoli.
